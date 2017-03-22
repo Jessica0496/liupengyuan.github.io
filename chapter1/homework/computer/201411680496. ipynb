@@ -1,0 +1,45 @@
+#练习1
+n = int(input('请输入一个正整数，以回车结束。'))
+
+i = 1
+total = 1
+
+while i < n:
+    i = i + 1
+    total = total * i
+
+print(n,'!=',total)
+
+#练习2
+n=int(input('请输入整数个数，以回车结束'))
+
+i=0
+total=0
+
+while i<n:
+    temp=int(input('请输入正整数，以回车结束'))
+    
+    total=total+temp
+    i+=1
+print('和是',total)
+
+#练习3用户可以输入的任意多个数字，直到用户不想输入为止。
+n=int(input('请输入任意数字，以10086结束')
+while n！=10086:
+	temp=int(input('请输入正整数，以10086结束'))
+	print('您输入的是',temp)
+print('the end')
+
+#练习4：用户可以输入的任意多个数字，直到输入所有数字的和比当前输入数字小，
+#且输入所有数字的积比当前输入数字的平方小。
+n=int(input('请输入正整数，以回车结束'))
+sum=0
+mult=1
+while !(sum<n and mult<n*n):
+	temp=int(input('请输入正整数，以回车结束'))
+	sum=sum+temp
+	mult=mult*temp
+print('the end')
+
+	
+
